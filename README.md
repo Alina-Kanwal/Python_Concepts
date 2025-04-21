@@ -32,6 +32,8 @@ String interning works only for hardcoded, static strings—those that are direc
    Short strings
    Strings that look like identifiers (only letters, numbers, and underscores)
    Strings used at compile-time
+7) What happens if a Python function does not have a return statement   
+It returns None.
 
    
 
