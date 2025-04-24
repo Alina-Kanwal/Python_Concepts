@@ -49,6 +49,9 @@ not True → False ,,, not False → True
 1)A substring is simply a part of a string — a sequence of characters taken from a larger string. space is also a substring.
 2) To convert a string into a list, we use the split() method.
 3) The join() method joins elements of a list into a string.
+////////////////////////////////////////////////////////////////////////////////Boolean, int, and float
+1) All the values including negative numbers, are considered True. Except 0 '', [], {}, set(), etc.
+2) 
 
    
 
