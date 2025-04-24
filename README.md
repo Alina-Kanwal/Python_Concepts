@@ -45,6 +45,11 @@ not True → False ,,, not False → True
 14) The &= operator in Python is a bitwise AND assignment operator. It performs a bitwise AND between the two operands and assigns the result to the variable on the left-hand side.
 15) It uses the // operator, which is called floor division. It divides and then rounds down to the nearest whole number (integer).
 16) In Python, the / operator performs regular (true) division, even if both operands are integers. 7 / 2 = 3.5
+//////////////////////////////////////////////////////////////////////////////////Python Strings and Methods - Quiz
+1)A substring is simply a part of a string — a sequence of characters taken from a larger string. space is also a substring.
+2) To convert a string into a list, we use the split() method.
+3) The join() method joins elements of a list into a string.
+
    
 
 
