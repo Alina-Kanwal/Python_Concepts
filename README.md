@@ -34,7 +34,17 @@ String interning works only for hardcoded, static strings—those that are direc
    Strings used at compile-time
 7) What happens if a Python function does not have a return statement   
 It returns None.
-
+//////////////////////////////////////////////////////////////////////////////////OPERATOR
+9) the ** operator is right-associative. That means it evaluates from right to left.
+10) Python automatically promotes the result to a float if one of the operands is a float. int(5.8) + float(3) output = 8.0
+AND operator return true if both operands are true, OR operator returns true if at least one operand is True.
+not True → False ,,, not False → True
+11){ASCII Value (Decimal)} Capital letter A starts with 65, and Samall a starts with 97, 0 starts with 48,
+12) ASCII Value (Hex) Capital letter A starts with 41, and Samall a starts with 61, 0 starts with 30,
+13) {ASCII Value (Decimal)} Space ! is 33, @ 64, ~ is 126 ASCII Value (Hex) ! is 21, @ 40, ~ is 7E
+14) The &= operator in Python is a bitwise AND assignment operator. It performs a bitwise AND between the two operands and assigns the result to the variable on the left-hand side.
+15) It uses the // operator, which is called floor division. It divides and then rounds down to the nearest whole number (integer).
+16) In Python, the / operator performs regular (true) division, even if both operands are integers. 7 / 2 = 3.5
    
 
 
