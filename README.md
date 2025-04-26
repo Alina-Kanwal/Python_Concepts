@@ -16,7 +16,7 @@ What will happen if you forget to close a file after performing file operations?
 The correct way to open a file in exclusive creation mode is by using the mode: X
 Ali Jawwad Mcqs Concepts
 1) Machine code is the lowest-level programming language, made up of binary digits (0s and 1s), that a computer’s CPU can directly understand and execute.
-2) A base number system (also called a radix) is a way of representing numbers using a specific number of digits and a base. It tells you how many different digits are used and what each digit's place value means.
+2) The base number system (or numeral system) is just a way of representing numbers using a set of digits and a base value. The base tells you how many digits there are before you "carry over" to the next place value. Base 10 (Decimal) – What we use every day. Digits: 0–9.
 3) every code we write in python it change into bytecode before running. When you run a script, Python creates a .pyc file (compiled Python file) in the __pycache__ folder. This .pyc file contains the bytecode.But it's still not machine code — it's an intermediate step
 4) memoryview is a Python object that allows you to directly view and manipulate binary data (such as bytes or bytearray) without copying it.
 This improves memory efficiency, especially when you are working with large files or data buffers. Python kea save krrhaa hy memory may wo show krta hy
