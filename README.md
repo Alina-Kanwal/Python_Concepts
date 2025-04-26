@@ -27,6 +27,10 @@ Comparison: None is often used to signify that a variable is empty or hasn't bee
 6) String interning is a method in Python that helps save memory and makes programs faster.
 When a string is interned, Python stores it only once in memory. So, instead of creating a new copy of the same string each time, Python reuses the same memory space for all copies of that string.
 String interning works only for hardcoded, static strings—those that are directly written in the code. Python can't automatically intern strings created at runtime because their values are not known in advance.
+pYTHON does not save memory on same same location when
+Spaces " ",
+Special characters like "!", "@", "%" are used.
+sys.intern() is used to save memory in same location if python does not save it on same location.
 1) Python automatically interns some strings to save memory.
    But this auto-interning is mostly done for
    Short strings
