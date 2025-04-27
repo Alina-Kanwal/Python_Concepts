@@ -27,23 +27,24 @@ Comparison: None is often used to signify that a variable is empty or hasn't bee
 6) String interning is a method in Python that helps save memory and makes programs faster.
 When a string is interned, Python stores it only once in memory. So, instead of creating a new copy of the same string each time, Python reuses the same memory space for all copies of that string.
 String interning works only for hardcoded, static strings—those that are directly written in the code. Python can't automatically intern strings created at runtime because their values are not known in advance.
+String interning works in only immutable data type.
 pYTHON does not save memory on same same location when
 Spaces " ",
-7) Arguments passed to a function using their parameter names,It use when we Call the function with keyword arguments greet(age=25, name="Alice")
+8) Arguments passed to a function using their parameter names,It use when we Call the function with keyword arguments greet(age=25, name="Alice")
 greet(age=25, name="Alice")
 Special characters like "!", "@", "%" are used.
 sys.intern() is used to save memory in same location if python does not save it on same location.
-8) Python automatically interns some strings to save memory.
+9) Python automatically interns some strings to save memory.
    But this auto-interning is mostly done for
    Short strings
    Strings that look like identifiers (only letters, numbers, and underscores)
    Strings used at compile-time
-9) What happens if a Python function does not have a return statement   
+10) What happens if a Python function does not have a return statement   
 It returns None.
-10) Python mein function se exception throw karne ke liye raise keyword ka use hota hai.
+11) Python mein function se exception throw karne ke liye raise keyword ka use hota hai.
 . Agar condition true hoti hai, to raise keyword se exception throw hota hai.
 . Exception ko try-except block se catch kiya ja sakta hai.
-11) Append aur Insert dono list mein elements add karne ke liye use hote hain, lekin inmein kuch differences hain:
+12) Append aur Insert dono list mein elements add karne ke liye use hote hain, lekin inmein kuch differences hain:
 . Append: List ke end mein element add karta hai.
 . Append: Sirf ek argument leta hai, jo element add karna hai.
 13) Insert
