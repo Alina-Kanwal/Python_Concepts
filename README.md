@@ -84,6 +84,8 @@ BUT if the element is not in the set → it does NOT raise an error.
 7) In Python, the pop() method on a list:
 ✅ Removes the last element by default
 ✅ Returns (prints if you print it) the element it removed
+8) | (pipe operator) is used to merge two dictionaries in Python 3.9+?.
+
 
    
 
