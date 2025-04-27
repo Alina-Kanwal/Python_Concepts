@@ -64,9 +64,26 @@ not True → False ,,, not False → True
 1)A substring is simply a part of a string — a sequence of characters taken from a larger string. space is also a substring.
 2) To convert a string into a list, we use the split() method.
 3) The join() method joins elements of a list into a string.
-////////////////////////////////////////////////////////////////////////////////Boolean, int, and float
+////////////////////////////////////////////////////////////////////////////////Boolean, int, float And Methods
 1) All the values including negative numbers, are considered True. Except 0 '', [], {}, set(), etc.
-2) 
+2) Remove, delete, clear
+Method | Action | Where used
+remove | Remove a specific value (e.g., 3) | List
+clear | Empty the entire object (list/dict/set) | List, Dict, Set
+del | Delete by index or delete variable completely | Anything (variable, list, etc.)
+3) we remove an item from a set in python
+4) remove()
+Removes a specific element.
+If the element is not in the set → raises a KeyError.
+5 ) discard()
+Also removes a specific element.
+BUT if the element is not in the set → it does NOT raise an error.
+6)Empty dictionary
+. my_dict = dict()       //Using curly braces {}:
+. my_dict = dict()       //Using the dict() constructor:
+7) In Python, the pop() method on a list:
+✅ Removes the last element by default
+✅ Returns (prints if you print it) the element it removed
 
    
 
