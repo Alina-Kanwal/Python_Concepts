@@ -16,8 +16,8 @@ What will happen if you forget to close a file after performing file operations?
 The correct way to open a file in exclusive creation mode is by using the mode: X
 Ali Jawwad Mcqs Concepts
 1) Machine code is the lowest-level programming language, made up of binary digits (0s and 1s), that a computer’s CPU can directly understand and execute.
-2) The base number system (or numeral system) is just a way of representing numbers using a set of digits and a base value. The base tells you how many digits there are before you "carry over" to the next place value. Base 10 (Decimal) – What we use every day. Digits: 0–9.
-3) every code we write in python it change into bytecode before running. When you run a script, Python creates a .pyc file (compiled Python file) in the __pycache__ folder. This .pyc file contains the bytecode.But it's still not machine code — it's an intermediate step
+2) The base number system (or numeral system) is just a way of representing numbers using a set of digits and a base value. The base tells you how many digits there are before you "carry over" to the next place value. Base 10 (Decimal) – What we use every day. A system for representing numbers using only two symbols .... yani Digits: 0–9 tak.
+3) every code we write in python it change into bytecode before running. When you run a script, Python creates a .pyc file (compiled Python file) in the __pycache__ folder. This .pyc file contains the bytecode.But it's still not machine code — it's an intermediate step.
 4) memoryview is a Python object that allows you to directly view and manipulate binary data (such as bytes or bytearray) without copying it.
 This improves memory efficiency, especially when you are working with large files or data buffers. Python kea save krrhaa hy memory may wo show krta hy
 5) None is Python's way of representing "no value" or "nothing." It's similar to null in other programming languages.
@@ -29,15 +29,26 @@ When a string is interned, Python stores it only once in memory. So, instead of 
 String interning works only for hardcoded, static strings—those that are directly written in the code. Python can't automatically intern strings created at runtime because their values are not known in advance.
 pYTHON does not save memory on same same location when
 Spaces " ",
+7) Arguments passed to a function using their parameter names,It use when we Call the function with keyword arguments greet(age=25, name="Alice")
+greet(age=25, name="Alice")
 Special characters like "!", "@", "%" are used.
 sys.intern() is used to save memory in same location if python does not save it on same location.
-1) Python automatically interns some strings to save memory.
+8) Python automatically interns some strings to save memory.
    But this auto-interning is mostly done for
    Short strings
    Strings that look like identifiers (only letters, numbers, and underscores)
    Strings used at compile-time
-7) What happens if a Python function does not have a return statement   
+9) What happens if a Python function does not have a return statement   
 It returns None.
+10) Python mein function se exception throw karne ke liye raise keyword ka use hota hai.
+. Agar condition true hoti hai, to raise keyword se exception throw hota hai.
+. Exception ko try-except block se catch kiya ja sakta hai.
+11) Append aur Insert dono list mein elements add karne ke liye use hote hain, lekin inmein kuch differences hain:
+. Append: List ke end mein element add karta hai.
+. Append: Sirf ek argument leta hai, jo element add karna hai.
+13) Insert
+. List mein specific index par element add karta hai.
+. Do arguments leta hai: index aur element.
 //////////////////////////////////////////////////////////////////////////////////OPERATOR
 9) the ** operator is right-associative. That means it evaluates from right to left.
 10) Python automatically promotes the result to a float if one of the operands is a float. int(5.8) + float(3) output = 8.0
